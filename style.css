@@ -907,3 +907,23 @@ footer
            padding: 30px 10px;
       }
 }
+
+
+
+/* Scroll Bar Design  */
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+::-webkit-scrollbar-track{
+	border: 4px solid #232943;
+	box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(
+		45deg,
+		#374FBF,
+		#3796ee
+		);
+}
